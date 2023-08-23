@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="LineageOS/android_build_soong" />
+  <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_libs_systemui" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
+  <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_modules_Permission" />
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/external/roboto-fonts" />
+
+  <project path="build/soong" name="plros/build_soong" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="art" name="plros/art" groups="pdk" />
+  <project path="bionic" name="plros/bionic" groups="pdk" />
+  <project path="external/roboto-fonts" name="plros/external_roboto-fonts" groups="pdk" />
+  <project path="frameworks/av" name="plros/frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="plros/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/libs/systemui" name="plros/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="plros/frameworks_native" groups="pdk" />
+  <project path="hardware/lineage/interfaces" name="plros/hardware_lineage_interfaces" />
+  <project path="lineage-sdk" name="plros/lineage-sdk" />
+  <project path="packages/apps/Backgrounds" name="plros/packages_apps_Backgrounds" />
+  <project path="packages/apps/DeskClock" name="plros/packages_apps_DeskClock" groups="pdk-fs" />
+  <project path="packages/apps/GameSpace" name="plros/packages_apps_GameSpace" />
+  <project path="packages/apps/LineageParts" name="plros/packages_apps_LineageParts" />
+  <project path="packages/apps/Messaging" name="plros/packages_apps_Messaging" groups="pdk-fs" />
+  <project path="packages/apps/ParanoidSense" name="plros/packages_apps_ParanoidSense" />
+  <project path="packages/apps/Settings" name="plros/packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" name="plros/packages_apps_SetupWizard" />
+  <project path="packages/apps/ThemePicker" name="plros/packages_apps_ThemePicker" groups="pdk-fs" />
+  <project path="packages/apps/Trebuchet" name="plros/packages_apps_Trebuchet" groups="pdk-fs" />
+  <project path="packages/modules/Permission" name="plros/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/overlays/Lineage" name="plros/packages_overlays_Lineage" />
+  <project path="system/core" name="plros/system_core" groups="pdk" />
+  <project path="vendor/lineage" name="plros/vendor_lineage" />
+  <project path="vendor/plros" name="plros/vendor_plros" />
+
+</manifest>
