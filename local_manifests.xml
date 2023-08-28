@@ -18,6 +18,7 @@
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_modules_Permission" />
+  <remove-project name="LineageOS/android_packages_resources_devicesettings" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_vendor_lineage" />
@@ -47,6 +48,7 @@
   <project path="packages/apps/SetupWizard" name="plros/packages_apps_SetupWizard" />
   <project path="packages/apps/ThemePicker" name="plros/packages_apps_ThemePicker" groups="pdk-fs" />
   <project path="packages/apps/Trebuchet" name="plros/packages_apps_Trebuchet" groups="pdk-fs" />
+  <project path="packages/resources/devicesettings" name="plros/packages_resources_devicesettings" />
   <project path="packages/modules/Permission" name="plros/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/overlays/Lineage" name="plros/packages_overlays_Lineage" />
   <project path="system/core" name="plros/system_core" groups="pdk" />
