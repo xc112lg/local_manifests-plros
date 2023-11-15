@@ -7,19 +7,24 @@
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_libs_systemui" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <remove-project name="LineageOS/android_hardware_interfaces" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
   <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+  <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_modules_common" />
   <remove-project name="LineageOS/android_packages_modules_Permission" />
   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="platform/art" />
@@ -36,21 +41,26 @@
   <project path="frameworks/base" name="plros/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/libs/systemui" name="plros/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="plros/frameworks_native" groups="pdk" />
-  <project path="hardware/lineage/interfaces" name="plros/hardware_lineage_interfaces" />
   <project path="lineage-sdk" name="plros/lineage-sdk" />
   <project path="packages/apps/Backgrounds" name="plros/packages_apps_Backgrounds" />
   <project path="packages/apps/DeskClock" name="plros/packages_apps_DeskClock" groups="pdk-fs" />
+  <project path="packages/apps/DocumentsUI" name="plros/packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/GameSpace" name="plros/packages_apps_GameSpace" />
   <project path="packages/apps/LineageParts" name="plros/packages_apps_LineageParts" />
   <project path="packages/apps/Messaging" name="plros/packages_apps_Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" name="plros/packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/ParanoidSense" name="plros/packages_apps_ParanoidSense" />
   <project path="packages/apps/Settings" name="plros/packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" name="plros/packages_apps_SetupWizard" />
   <project path="packages/apps/ThemePicker" name="plros/packages_apps_ThemePicker" groups="pdk-fs" />
   <project path="packages/apps/Trebuchet" name="plros/packages_apps_Trebuchet" groups="pdk-fs" />
   <project path="packages/resources/devicesettings" name="plros/packages_resources_devicesettings" />
+  <project path="packages/modules/common" name="plros/packages_modules_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Permission" name="plros/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/overlays/Lineage" name="plros/packages_overlays_Lineage" />
+  <project path="packages/providers/ContactsProvider" name="plros/packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/MediaProvider" name="plros/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telephony" name="plros/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/core" name="plros/system_core" groups="pdk" />
   <project path="vendor/lineage" name="plros/vendor_lineage" />
   <project path="vendor/plros" name="plros/vendor_plros" />
