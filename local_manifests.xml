@@ -96,6 +96,6 @@
   <project path="system/core" name="plros/system_core" groups="pdk" />
   <project path="vendor/lineage" name="plros/vendor_lineage" />
   <project path="vendor/plros" name="plros/vendor_plros" />
-  <project path="vendor/plros-priv" name="plros/vendor_plros-priv" />
+  <!--Doesn't exist <project path="vendor/plros-priv" name="plros/vendor_plros-priv" />-->
 
 </manifest>
